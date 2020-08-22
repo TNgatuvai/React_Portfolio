@@ -1,16 +1,13 @@
 .header-color {
-  background: #1F1C2C;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #928DAB, #1F1C2C);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #928DAB, #1F1C2C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
+  background: #F3904F;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3B4371, #F3904F);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3B4371, #F3904F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .landing-grid {
-  background: #1F1C2C;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #928DAB, #1F1C2C);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #928DAB, #1F1C2C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: #F3904F;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3B4371, #F3904F);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3B4371, #F3904F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
   position: fixed;
   top: 0;
@@ -19,9 +16,30 @@ background: linear-gradient(to right, #928DAB, #1F1C2C); /* W3C, IE 10+/ Edge, F
   height: 100%;
 }
 
+.profile-pic {
+  height: 25px;
+}
+
 .projects-grid {
   display: flex;
 }
+
+/* Resume page css */
+
+.resume-right-col {
+  background: #27221F;
+  color: white;
+  padding: 2em;
+}
+
+.resume-img {
+  height: 350px;
+  /* margin: 10px; */
+  border: 1px solid black;
+  border-radius: 50px 50px 50px 50px;
+  box-shadow: 10px 5px 5px black;
+}
+
 
 /* contact page css */
 
@@ -66,8 +84,13 @@ background: linear-gradient(to right, #928DAB, #1F1C2C); /* W3C, IE 10+/ Edge, F
 }
 
 .avatar-img {
-  height: 250px;
-  padding-top: 5em;
+  height: 350px;
+  /* padding-top: 5em; */
+  margin-top: 50px;
+  border: 1px solid black;
+  border-radius: 50px 50px 50px 50px;
+  box-shadow: 10px 5px 5px black;
+
 }
 
 .banner-text {
